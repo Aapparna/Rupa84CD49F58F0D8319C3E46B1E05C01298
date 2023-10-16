@@ -27,10 +27,12 @@ class BankAccount:
                 self.__account_holder_name,         self.__account_number, 
         self.__account_balance))
     
-
-account =                      BankAccount(account_number="123456  789", 
-               account_holder_name="joy",
-                                        initial_balance=5000.0)
+amount =
+BankAccount(account_number="123456  789", 
+                               
+account_holder_name="joy",
+            
+initial_balance=5000.0)
 account.display_balance()
 account.deposit(500.0)
 account.withdraw(200.0)
