@@ -1,6 +1,6 @@
 class BankAccount:
 
-  def __init__(self,        account_number,     account_holder_name, initial_balance=0.0):
+  def __init__(self,acount_number,account_holder_name,initial_balance=0.0):
     self.__account_number = account_number
     self.__account_holder_name = account_holder_name
     self.__account_balance = initial_balance
@@ -20,10 +20,10 @@ class BankAccount:
                                         self.__account_balance))                     
 
     else:
-    print("Invalid Withdrawal     amount or insufficent balance.")
+      print("Invalid Withdrawal     amount or insufficent balance.")
 
   def display_balance(self):
-    print("Account balance for {} (Account #{}):₹{}".format(
+      print("Account balance for {} (Account #{}):₹{}".format(
                 self.__account_holder_name,         self.__account_number, 
         self.__account_balance))
     
