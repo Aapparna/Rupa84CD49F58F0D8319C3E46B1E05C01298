@@ -14,12 +14,12 @@ class BankAccount:
       print("Invalid deposit     amount. please deposit positive         amount.")
        
   def withdraw(self, amount):
-   if amount > 0 and amount <= self.__account_balance: 
+    if amount > 0 and amount <= self.__account_balance: 
       self.__account_balance -=￼￼￼￼￼￼         amount
       print("Withdrew {}. New balance: {}".format(amount,
                                         self.__account_balance))                     
 
-   else:
+    else:
     print("Invalid Withdrawal     amount or insufficent balance.")
 
   def display_balance(self):
